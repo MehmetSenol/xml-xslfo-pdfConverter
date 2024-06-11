@@ -1,0 +1,16 @@
+<fop version="1.0">
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font metrics-url="file:///path/to/Symbol.xml" embed-url="file:///path/to/Symbol.ttf">
+          <font-triplet name="Symbol" style="normal" weight="400"/>
+          <font-triplet name="Symbol" style="normal" weight="700"/>
+        </font>
+        <font metrics-url="file:///path/to/ZapfDingbats.xml" embed-url="file:///path/to/ZapfDingbats.ttf">
+          <font-triplet name="ZapfDingbats" style="normal" weight="400"/>
+          <font-triplet name="ZapfDingbats" style="normal" weight="700"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>
